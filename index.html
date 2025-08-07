@@ -3,88 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>my Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1></h1>
-        <nav>
-            <a href="">Home</a>
-            <a href="#about">About</a>
-            <a href="#Work">Work</a>
-            <a href="#Resume">Resume</a>
-            <a href="#Contact">Contact</a>
+    <header class="header">
+        <h1 class="logo">Mon Portfolio</h1>
+        <nav class="nav">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#Work" class="nav-link">Work</a>
+            <a href="#Resume" class="nav-link">Resume</a>
+            <a href="#Contact" class="nav-link">Contact</a>
         </nav>
     </header>
-    <main>
-        <video width="350px" height="250px" src="./20004535-uhd_2560_1440_30fps.mp4" autoplay></video>
-        <section>
-            <a name="about"> </a>
-            <h2 >About</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsam laboriosam, vitae iure sapiente reprehenderit sed, dolore ullam alias illo dicta omnis, iste id. Voluptatum asperiores error est perspiciatis ut quasi qui nesciunt quo? Temporibus recusandae eos voluptate laudantium eum vitae eveniet obcaecati quod deleniti molestias necessitatibus, voluptatibus quae sit?</p>
+    <main class="main">
+        <section class="hero">
+            <video class="hero-video" width="350px" height="250px" src="./20004535-uhd_2560_1440_30fps.mp4" autoplay></video>
         </section>
-        <section>
+        <section class="section about-section">
+            <a name="about"> </a>
+            <h2 class="section-title">About</h2>
+            <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsam laboriosam, vitae iure sapiente reprehenderit sed, dolore ullam alias illo dicta omnis, iste id. Voluptatum asperiores error est perspiciatis ut quasi qui nesciunt quo? Temporibus recusandae eos voluptate laudantium eum vitae eveniet obcaecati quod deleniti molestias necessitatibus, voluptatibus quae sit?</p>
+        </section>
+        <section class="section work-section">
             <a name="Work"> </a>
-            <h2>Work</h2>
-            <ol type="I">
-                <li>1978:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
-                <li>1991:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
-                <li>2002:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
-                <li>2010:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
-                <li>2014:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
-                <li>2019:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
-                <li>2022:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
-            
+            <h2 class="section-title">Work</h2>
+            <ol class="work-list" type="I">
+                <li class="work-item">1978:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
+                <li class="work-item">1991:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
+                <li class="work-item">2002:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
+                <li class="work-item">2010:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
+                <li class="work-item">2014:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
+                <li class="work-item">2019:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
+                <li class="work-item">2022:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quis?</li>
             </ol>
         </section>
-        <section >
+        <section class="section resume-section">
             <a name="Resume"> </a>
-            <h2>Resume</h2>
-            <div>
-                <h3>Etude</h3>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-category">
+                    <h3 class="category-title">Etude</h3>
+                    <ul class="category-list">
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                     </ul>
-                <h3>Experience</h3>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                </div>
+                <div class="resume-category">
+                    <h3 class="category-title">Experience</h3>
+                    <ul class="category-list">
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                     </ul>
-                <h3>Highlight</h3>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                </div>
+                <div class="resume-category">
+                    <h3 class="category-title">Highlight</h3>
+                    <ul class="category-list">
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li class="category-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                     </ul>
-                <h3>Benevolat</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quis ducimus ratione eveniet sunt laboriosam nihil, id consequatur iste eum.</p>
-
+                </div>
+                <div class="resume-category">
+                    <h3 class="category-title">Benevolat</h3>
+                    <p class="category-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quis ducimus ratione eveniet sunt laboriosam nihil, id consequatur iste eum.</p>
+                </div>
             </div>
-            <img src="" alt="">
-            
-
+            <img src="" alt="" class="resume-image">
         </section>
-        <section>
+        <section class="section contact-section">
            <a name="Contact"> </a>
-            <h2>Contact us</h2>
-            <form>
-                <label for="">Email</label>
-                <input type="email" name="Email" placeholder="please insert your email adress"><br>
-                <textarea name="Message" cols="30" rows="8" placeholder="how can i help you"></textarea>
-                <button type="submit">send</button>
-
+            <h2 class="section-title">Contact us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="Email" placeholder="please insert your email adress" class="form-input">
+                </div>
+                <div class="form-group">
+                    <textarea name="Message" cols="30" rows="8" placeholder="how can i help you" class="form-textarea"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">send</button>
             </form>
         </section>
     </main>
-    <footer>                  
-            <a href="http://">linkedin</a>
-            <a href="http://">Facebook</a>
-            <a href="tel:+21699999999">call us</a>
-            
+    <footer class="footer">                  
+        <a href="http://" class="footer-link">linkedin</a>
+        <a href="http://" class="footer-link">Facebook</a>
+        <a href="tel:+21699999999" class="footer-link">call us</a>
     </footer>
 </body>
 </html>
